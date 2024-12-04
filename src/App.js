@@ -1,15 +1,16 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
-import About from './components/About';
+//import About from './components/About';
 import Features from './components/Features';
-import Teams from './components/Teams';
+//import Teams from './components/Teams';
 import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
+//import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Download from './components/Download';
 import Footer from './components/Footer';
 import Video from './components/Video';
+import Pricing from './components/Pricing';
 
 // Import required CSS
 import './assets/css/animate.css';
@@ -20,12 +21,13 @@ const App = () => {
     <>
       <Navbar />
       <Banner />
-      <About />
-      <Video />
       <Features />
-      <Teams />
+      <Video />
+      <Pricing />
+      {/* <Teams />*/}
       <Testimonials />
-      <FAQ />
+      {/* <FAQ />*/}
+      {/* <About />*/}
       <Contact />
       <Download />
       <Footer />

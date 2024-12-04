@@ -33,19 +33,19 @@ const Navbar = () => {
               <a href="#" className="nav-link" data-scroll-nav="0">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link" data-scroll-nav="1">About</a>
-            </li>
-            <li className="nav-item">
               <a href="#" className="nav-link" data-scroll-nav="2">Features</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link" data-scroll-nav="3">Team</a>
+              <a href="#" className="nav-link" data-scroll-nav="3">Subscription Options</a>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link" data-scroll-nav="4">Testimonials</a>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link" data-scroll-nav="5">FAQ</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link" data-scroll-nav="1">About</a>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link" data-scroll-nav="6">Contact</a>

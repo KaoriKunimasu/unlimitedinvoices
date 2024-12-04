@@ -3,42 +3,42 @@ import React from 'react';
 const Features = () => {
   const leftFeatures = [
     {
-      title: "Fast Processing",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-bolt",
+      title: "Custom Payment Terms",
+      description: "Define payment terms, due dates, and early payment discounts specific to each client or invoice.",
+      icon: "fa-file-invoice-dollar",
       delay: "0.2s"
     },
     {
-      title: "Low Power Consuming",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-battery-full",
+      title: "Invoice History & Archiving",
+      description: "Keep a complete history of invoices with easy access to past records for auditing and reporting",
+      icon: "fas fa-archive",
       delay: "0.4s"
     },
     {
-      title: "Wifi Compatibility",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-wifi",
+      title: "Mobile Invoicing",
+      description: "Access invoicing features on the go with mobile apps, allowing salespeople to create, send, and manage invoices anytime, anywhere.",
+      icon: "fa-mobile-alt",
       delay: "0.6s"
     }
   ];
 
   const rightFeatures = [
     {
-      title: "Regular Updates",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-check-double",
+      title: "Payment Gateways Integration",
+      description: "Seamless integration with popular payment gateways (PayPal, Stripe, etc.) allows clients to pay directly from the invoice.",
+      icon: "fa-credit-card",
       delay: "0.2s"
     },
     {
-      title: "Save Money",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-dollar-sign",
+      title: "Tax Calculation & Compliance",
+      description: "Automatically calculate taxes based on client location, ensuring compliance with local tax regulations (e.g., VAT, GST).",
+      icon: "fas fa-calculator",
       delay: "0.4s"
     },
     {
-      title: "Unlimited Storage",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore",
-      icon: "fa-hdd",
+      title: "Automated Invoicing",
+      description: "Set up recurring invoices for subscription-based services or repeat clients, reducing manual effort.",
+      icon: "fa-sync-alt",
       delay: "0.6s"
     }
   ];
@@ -49,11 +49,14 @@ const Features = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="sectioner-header text-center">
-              <h3>Features</h3>
+              <h3>Why Choose Unlimited Invoices?</h3>
               <span className="line"></span>
               <p>
-                Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra.
-                Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.
+                Our online invoicing software is designed with simplicity and functionality in mind,
+                 offering a user-friendly interface that makes invoicing a breeze. 
+                 Whether you're a freelancer, a small business owner, or a mid-size company, 
+                 our software is perfect for streamlining your invoicing process and saving you 
+                 valuable time.
               </p>
             </div>
             

@@ -7,22 +7,17 @@ const Testimonials = () => {
   const testimonials = [
     {
       img: '/images/user1.jpg',
-      name: 'John Michal',
-      role: 'Digital Designer',
-      text: 'Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat.',
+      name: 'Narendra Bhana',
+      role: 'AN Business Consultants Ltd',
+      text: "I've been using this invoicing software for over a year, and it has transformed the way I manage my business finances. It's incredibly user-friendly, and the automation features save me hours every week. My clients appreciate the professional-looking invoices, and the reminders ensure I get paid on time.",
     },
     {
       img: '/images/user3.jpg',
-      name: 'Steve Smith',
-      role: 'App User',
-      text: 'Euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud.',
+      name: 'Gerry Tsao',
+      role: 'Top Finance Ltd',
+      text: 'The invoicing software has streamlined our billing process tremendously. We can now send out invoices in bulk, and the automatic follow-up feature ensures we never miss a payment. The mobile app is also a huge plus, allowing me to manage invoices on the go.',
     },
-    {
-      img: '/images/user3.jpg',
-      name: 'Gordon Shaw',
-      role: 'Blogger',
-      text: 'Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud.',
-    },
+
   ];
 
   // Slider settings
@@ -45,16 +40,15 @@ const Testimonials = () => {
               <h3>Testimonials</h3>
               <span className="line"></span>
               <p className="white">
-                Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus,
-                vestibulum ante in, pharetra ante.
+                
               </p>
             </div>
             <div className="section-content">
-              <div className="row">
-                <div className="offset-md-2 col-md-8 col-sm-12">
+              <div className="row justify-content-center">
+                <div className="col-md-8 col-sm-12">
                   <Slider {...settings}>
                     {testimonials.map((testimonial, index) => (
-                      <div className="slider-item" key={index}>
+                      <div className="slider-item" key={index}>   
                         <div className="test-img">
                           <img src={testimonial.img} alt={testimonial.name} width="157" height="157" />
                         </div>

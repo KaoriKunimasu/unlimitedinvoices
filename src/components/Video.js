@@ -11,7 +11,7 @@ const Video = () => {
             <div className="video-src">
               <div className="iframe-src">
                 <iframe
-                  src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0"
+                  src="https://www.youtube.com/@unlimitedinvoices"
                   allowFullScreen
                   title="YouTube Video"
                 ></iframe>

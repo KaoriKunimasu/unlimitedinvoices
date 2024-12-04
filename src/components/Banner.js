@@ -8,27 +8,32 @@ const Banner = () => {
           <div className="row">
             <div className="col-md-8 col-sm-12">
               <div className="banner-text">
-                <h2 className="white">Invoice Smarter, Not Harder</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                  hendrerit neque massa, sit amet tristique ante porta ut. In sodales et
-                  justo vel vulputate.
-                </p>
-                <div className="store-buttons">
-                  <ul>
-                    <li>
-                      <a href="#" className="wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="images/appstore.png" alt="App Store" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="wow fadeInUp" data-wow-delay="0.7s">
-                        <img src="images/playstore.png" alt="Play Store" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+  <h2 className="white">Invoice Smarter, Not Harder</h2>
+  <p>
+    At Unlimited Invoices, we specialize in providing top-notch online invoicing 
+    software tailored to meet the needs of small and mid-size businesses, as well 
+    as self-employed individuals. Our goal is to simplify the invoicing process for 
+    those who may not be tech-savvy, making it easy and efficient to invoice clients 
+    in a matter of seconds.
+  </p>
+  <a href="#contact" className="cta-btn">
+    Get Started
+  </a>
+  <div className="store-buttons">
+    <ul>
+      <li>
+        <a href="#" className="wow fadeInUp" data-wow-delay="0.4s">
+          <img src="images/appstore.png" alt="App Store" />
+        </a>
+      </li>
+      <li>
+        <a href="#" className="wow fadeInUp" data-wow-delay="0.7s">
+          <img src="images/playstore.png" alt="Play Store" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
             </div>
             <div className="col-md-4 col-sm-12">
               <img 
