@@ -10,8 +10,7 @@ const Contact = () => {
               <h3>Contact us</h3>
               <span className="line"></span>
               <p>
-                Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus,
-                vestibulum ante in, pharetra ante.
+                Have a question or comment. Fill in the form below and we will get back to you.
               </p>
             </div>
             <div className="section-content">
@@ -60,6 +59,7 @@ const Contact = () => {
                   </form>
                 </div>
                 {/* Contact Info Section */}
+                
                 <div className="col-sm-12 col-md-12 col-lg-4">
                   <div className="contact-info white">
                     <div className="contact-item media">

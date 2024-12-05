@@ -40,7 +40,14 @@ const Features = () => {
       description: "Set up recurring invoices for subscription-based services or repeat clients, reducing manual effort.",
       icon: "fa-sync-alt",
       delay: "0.6s"
+    },
+      {
+      title: "Customizable Invoice Templates",
+      description: "Create professional invoices with customizable templates that include your brand logo, colors, and layout.",
+      icon: "fa-file-invoice",
+      delay: "0.6s"
     }
+    
   ];
 
   return (

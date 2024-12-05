@@ -23,11 +23,10 @@ const Download = () => {
           {/* Section Header */}
           <div className="col-md-12">
             <div className="sectioner-header text-center white">
-              <h3>Download Our App</h3>
+              <h3>Download Your App</h3>
               <span className="line"></span>
               <p className="white">
-                Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus,
-                vestibulum ante in, pharetra ante.
+                Download your app and start invoicing for free
               </p>
             </div>
           </div>

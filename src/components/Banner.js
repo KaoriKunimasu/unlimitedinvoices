@@ -8,7 +8,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-md-8 col-sm-12">
               <div className="banner-text">
-  <h2 className="white">Invoice Smarter, Not Harder</h2>
+  <h2 className="white">Let's get your <br></br>Invoice Invoice Sorted...</h2>
   <p>
     At Unlimited Invoices, we specialize in providing top-notch online invoicing 
     software tailored to meet the needs of small and mid-size businesses, as well 
@@ -17,8 +17,9 @@ const Banner = () => {
     in a matter of seconds.
   </p>
   <a href="#contact" className="cta-btn">
-    Get Started
+    Sign Up for Free
   </a>
+
   <div className="store-buttons">
     <ul>
       <li>

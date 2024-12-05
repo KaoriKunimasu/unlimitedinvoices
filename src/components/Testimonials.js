@@ -6,13 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 const Testimonials = () => {
   const testimonials = [
     {
-      img: '/images/user1.jpg',
+      img: '/images/user1.png',
       name: 'Narendra Bhana',
       role: 'AN Business Consultants Ltd',
       text: "I've been using this invoicing software for over a year, and it has transformed the way I manage my business finances. It's incredibly user-friendly, and the automation features save me hours every week. My clients appreciate the professional-looking invoices, and the reminders ensure I get paid on time.",
     },
     {
-      img: '/images/user3.jpg',
+      img: '/images/user3.png',
       name: 'Gerry Tsao',
       role: 'Top Finance Ltd',
       text: 'The invoicing software has streamlined our billing process tremendously. We can now send out invoices in bulk, and the automatic follow-up feature ensures we never miss a payment. The mobile app is also a huge plus, allowing me to manage invoices on the go.',
@@ -54,7 +54,8 @@ const Testimonials = () => {
                         </div>
                         <div className="test-text">
                           <span className="title">
-                            <span>{testimonial.name}</span> {testimonial.role}
+                            <span className = "testimonial-name">{testimonial.name}</span>
+                            <span className = "testimonial-role"> {testimonial.role}</span>
                           </span>
                           {testimonial.text}
                         </div>
