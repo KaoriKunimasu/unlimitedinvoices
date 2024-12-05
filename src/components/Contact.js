@@ -66,7 +66,7 @@ const Contact = () => {
                       <i className="fa fa-map-marker-alt media-left media-right-margin"></i>
                       <div className="media-body">
                         <p className="text-uppercase">Address</p>
-                        <p className="text-uppercase">New Delhi, India</p>
+                        <p className="text-uppercase">Level 8, 44 Anzac Ave, Auckland CBD, Auckland 1010 </p>
                       </div>
                     </div>
                     <div className="contact-item media">
@@ -74,23 +74,29 @@ const Contact = () => {
                       <div className="media-body">
                         <p className="text-uppercase">Phone</p>
                         <p className="text-uppercase">
-                          <a className="text-white" href="tel:+15173977100">
-                            009900990099
+                          <a className="text-white" href="tel:+64211292724">
+                            +64211292724  
                           </a>
                         </p>
                       </div>
                     </div>
+                      {/*
                     <div className="contact-item media">
                       <i className="fa fa-envelope media-left media-right-margin"></i>
                       <div className="media-body">
+                      
                         <p className="text-uppercase">E-mail</p>
                         <p className="text-uppercase">
+                         
                           <a className="text-white" href="mailto:yogeshsingh.now@gmail.com">
                             yogeshsingh.now@gmail.com
                           </a>
+                          
                         </p>
                       </div>
+                      
                     </div>
+                    */}
                     <div className="contact-item media">
                       <i className="fa fa-clock media-left media-right-margin"></i>
                       <div className="media-body">
