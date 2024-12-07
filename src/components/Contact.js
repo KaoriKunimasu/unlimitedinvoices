@@ -80,23 +80,7 @@ const Contact = () => {
                         </p>
                       </div>
                     </div>
-                      {/*
-                    <div className="contact-item media">
-                      <i className="fa fa-envelope media-left media-right-margin"></i>
-                      <div className="media-body">
-                      
-                        <p className="text-uppercase">E-mail</p>
-                        <p className="text-uppercase">
-                         
-                          <a className="text-white" href="mailto:yogeshsingh.now@gmail.com">
-                            yogeshsingh.now@gmail.com
-                          </a>
-                          
-                        </p>
-                      </div>
-                      
-                    </div>
-                    */}
+
                     <div className="contact-item media">
                       <i className="fa fa-clock media-left media-right-margin"></i>
                       <div className="media-body">

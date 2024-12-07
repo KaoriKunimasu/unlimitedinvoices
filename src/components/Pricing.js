@@ -15,6 +15,7 @@ const Pricing = () => {
         "Time-Saving Automations",
       ],
       buttonText: "Subscribe Now",
+      buttonLink: "https://unlimitedinvoices.com/register",
       animationDelay: "0.2s",
     },
     {
@@ -31,6 +32,7 @@ const Pricing = () => {
         "Generate Monthly/Yearly Reports",
       ],
       buttonText: "Subscribe Now",
+      buttonLink: "https://unlimitedinvoices.com/register",
       animationDelay: "0.4s",
     },
     {
@@ -49,6 +51,7 @@ const Pricing = () => {
         "For More Info – Feel Free to discuss more.",
       ],
       buttonText: "Contact Sales",
+      buttonLink: "mailto:info@unlimitedinvoices.com",
       animationDelay: "0.6s",
     },
   ];
@@ -77,7 +80,9 @@ const Pricing = () => {
                     <li key={featureIndex}>{feature}</li>
                   ))}
                 </ul>
-                <button className="btn btn-primary">{plan.buttonText}</button>
+                <a href={plan.buttonLink} className="btn btn-primary" style={{ display: 'block', textAlign: 'center' }}>
+                  {plan.buttonText}
+                </a>
               </div>
             </div>
           ))}

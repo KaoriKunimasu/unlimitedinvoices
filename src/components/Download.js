@@ -3,13 +3,13 @@ import React from 'react';
 const Download = () => {
   const downloadLinks = [
     {
-      href: '#',
+      href: 'https://apps.apple.com/nz/app/unlimited-invoices/id6482852538',
       imgSrc: 'images/appstore.png',
       alt: 'App Store',
       delay: '0.4s',
     },
     {
-      href: '#',
+      href: 'https://play.google.com/store/apps/details?id=com.unlimitedinvoice.app&pcampaignid=web_share&pli=1',
       imgSrc: 'images/playstore.png',
       alt: 'Play Store',
       delay: '0.7s',
