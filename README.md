@@ -6,14 +6,7 @@
 
 ---
 
-## 🚀 Features
 
-- **Invoice Creation**: Generate professional invoices with customizable fields.
-- **Client Management**: Maintain a database of clients for quick invoice generation.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Export Options**: Download invoices in PDF format for record-keeping or sharing.
-
----
 
 ## 🛠️ Tech Stack
 
