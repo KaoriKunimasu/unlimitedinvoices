@@ -109,6 +109,8 @@ Contributions to the Admin Dashboard are welcome. Please follow these steps:
 
 Project Link: [https://github.com/KaoriKunimasu/unlimitedinvoices](https://github.com/KaoriKunimasu/unlimitedinvoices)
 
+---
 
+Last Updated: May 2025
 
 
