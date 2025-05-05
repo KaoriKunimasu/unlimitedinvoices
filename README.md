@@ -1,6 +1,8 @@
-# Unlimited Invoices
+# Unlimited Invoices - Landing Page
 
-**Unlimited Invoices** is a web-based application designed to streamline the creation and management of invoices. Built with React and styled using Tailwind CSS, it offers a user-friendly interface for handling invoicing tasks efficiently.
+**Unlimited Invoices** is a simple, clean, and responsive landing page designed to showcase the features of the Unlimited Invoices app. The purpose of this project is to provide potential users with an overview of the app's capabilities and encourage them to download or sign up.
+
+This project serves as a promotional tool and provides key information about the app, including its benefits and features, to attract new users.
 
 > 🌐 **Live Demo**: [unlimitedinvoices.vercel.app](https://unlimitedinvoices.vercel.app)
 
